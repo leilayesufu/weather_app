@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="main">
+       <header>
+        <h1>Weather App</h1>
+         <div class="checkbox-container">
+        <input type="checkbox" class="checkbox" id="checkbox-unit" />
+        <label class="label" for="checkbox-unit">
+          <div class="ball"></div>
+          <p class="unitC">°C</p>
+          <p class="unitF">°F</p>
+        </label>
+      </div>
+       </header>
+       <form class="form">
+        <input type="text" placeholder="Search any city" class="inputsearch"></input>
+        <button class="searchbutton" id="buttong"><ion-icon name="search"></ion-icon></button>
+    </form>
+       <div class="loading" id="remove">
+        <div class="todayforecast">
+            <div class="todayy">
+            <p class="datee">Monday, October 3rd</p>
+            <h2 class="cityname">Lagos, Ng</h2>
+            <div class="desicon">
+                <img class= "icon" src="https://openweathermap.org/img/wn/04n.png" alt ="weathericon">
+            <span class="description">Cloudy</span>
+            </div>
+            <h2 class><span class="spantemp">16</span><sup class = "unitsign">°C
+            </sup>
+            </h2>
+             </div>
+             <div class="info">
+            <p class="pressure">Pressure:</p>
+            <p class="humidity">Humidity:</p>
+            <p class="wind">Wind:</p>
+            </div>
+        </div>
+        
+       </div>
+       <footer>
+        <p>Designed and Developed by <a href="https://github.com/leilayesufu" target="_blank">Leila Yesufu</a>.</p>
+       </footer>
+       </div>
+       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src= "scripts.js" async defer></script>
+    </body>
+</html>

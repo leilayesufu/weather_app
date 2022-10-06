@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+html{
+    box-sizing: border-box;
+}
+body{
+    background: lavender;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape █');
+}
+.main{
+    background: #000000aa;
+    color: #FFF5E4;
+    padding: 2em;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 500px;
+    margin: 1em;
+    height: auto;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center
+}
+
+.unitC,
+.unitF {
+  font-size: 0.85rem;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  z-index: 20;
+  pointer-events: none;
+  text-shadow: none;
+}
+
+.unitF {
+  color: navy;
+}
+
+.checkbox-container {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 20px;
+  width: 40px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 23px;
+  width: 23px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.loading{
+    visibility: hidden;
+}
+
+.inputsearch{
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    width: 50%;
+    padding: 0.4em;
+    margin-right: 0em;
+    background: rgb(78, 77, 77);
+    font-family: inherit;
+    font-size: 120%;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    
+}
+
+.input :focus{
+    background:#7c7c7c6b;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0.4em;
+    background: rgb(78, 77, 77);
+    color: white;
+}
+
+button:hover{
+    background:#7c7c7c6b;
+    font-size: x-large;
+}
+
+.todayforecast{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.todayy p{
+    margin-bottom: 0.1em;
+    margin-top: 1.5em;
+}
+
+.todayy img{
+    height: 3em;
+    margin: 0;
+}
+.todayy h2{
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.info{
+    margin-right: 2em;
+    text-transform: capitalize;
+}
+.desicon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    color: inherit;
+}
+
+@media only screen and (max-width:420px) {
+    .todayforecast{
+        flex-direction: column;
+    }
+  }
