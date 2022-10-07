@@ -11,7 +11,7 @@ Some of its features include:
 -Displays the temperature, precipitation, humidity, wind speed of the city
 -Toggle the current temperature between Celsius and Fahrenheit 
 
-Link to the live demo: https://leilayesufu.github.io/weather_app/
+Link to the live demo: https://ebisinteidennis.github.io/weather_app/
 
 
 #frontendwebdeveloper #frontend #api #quotegenerator #javascript #ht #html #css #share #gi #github
