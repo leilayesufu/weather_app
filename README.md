@@ -13,9 +13,6 @@ Some of its features include:
 
 Link to the live demo: https://leilayesufu.github.io/weather_app/
 
-Link to the project repository: https://github.com/leilayesufu/weather_app
-
-Link to my github account: https://github.com/leilayesufu
 
 #frontendwebdeveloper #frontend #api #quotegenerator #javascript #ht #html #css #share #gi #github
 
