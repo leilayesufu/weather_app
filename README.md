@@ -1,10 +1,9 @@
+![computersc](https://user-images.githubusercontent.com/78659709/194443851-696fb718-3f0f-4bbf-9f41-593718ff77f8.png)
+![image0 (1)](https://user-images.githubusercontent.com/78659709/194444000-97a4b402-e2c6-4ee7-9c32-d1b9f2c18905.png)
 # Weather App
 Check the weather of any city on the planet.
 
 view the live demo here: 
-
-
-**image**
 
 ## features
 1. Search cities
